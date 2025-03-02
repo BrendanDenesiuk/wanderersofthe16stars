@@ -17,7 +17,7 @@ body {
 /* Book */
 .book {
     position: relative;
-    width: 77.27vh;
+    width: 65.3846154vh;
     height: 100vh;
     transition: transform 0.15s;
 }
@@ -81,7 +81,7 @@ button {
     cursor: pointer;
     margin: 10px;
     transition: transform 0.15s;
-    font-size: 64px;
+    font-size: 32px;
     font-weight: bold;
     opacity: 30%;
 }
