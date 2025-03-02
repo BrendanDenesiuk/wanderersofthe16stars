@@ -20,7 +20,7 @@
 
 @font-face {
     font-family: LTMuseum-Medium;
-    src: url('assets/typefaces/LTMuseum-Medium.ttf') format('truetype');
+    src: url('assets/typefaces/LTMuseum-Medium.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -82,7 +82,7 @@ body {
     flex-direction: column;
     width: 60%;
     justify-content: space-evenly;
-    row-gap: 1rem;
+    row-gap: 2rem;
 }
 
 .content-double {
@@ -94,7 +94,7 @@ body {
 }
 
 .content-double p {
-    font-size: 22px;
+    font-size: 20px;
     text-align: justify;
     text-justify: auto;
     hyphens: auto;
@@ -106,8 +106,8 @@ body {
 
 .two-column-text {
     column-count: 2;
-    column-gap: 1rem;
-    font-size: 22px;
+    column-gap: 2rem;
+    font-size: 20px;
     text-align: justify;
     text-justify: auto;
     hyphens: auto;
@@ -123,6 +123,8 @@ body {
 }
 
 .center-text {
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
