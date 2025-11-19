@@ -20,6 +20,7 @@ body {
     width: 65.3846154vh;
     height: 100vh;
     transition: transform 0.15s;
+    overflow: visible;
 }
 
 .paper {
@@ -29,7 +30,7 @@ body {
     top: 0;
     left: 0;
     perspective: 1500px;
-
+    overflow: visible;
 }
 
 .front,
